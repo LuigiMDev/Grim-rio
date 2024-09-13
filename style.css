@@ -19,6 +19,7 @@ p{
   background: left top no-repeat;
   background-size: cover;
 }
+
 .page:nth-child(even) {
   clear: both;
 }
@@ -138,6 +139,19 @@ body {
   background-position: right top;
 }
 
+.div__imagem {
+  width: 80%;
+  height: 45%;
+  margin: 2vh auto;
+}
+
+.write_pages p{
+  font-size: 1vw;
+  padding: 0 5%;
+  text-align: justify;
+  margin: 8% 0;
+}
+
 #book__cover {
   background: url(imagens/imagensLivro/15.jpg) no-repeat center/cover;
 }
@@ -169,4 +183,18 @@ body {
   background-color: rgb(204, 184, 158);
 }
 
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.big-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  padding: 1vw;
+}
 
